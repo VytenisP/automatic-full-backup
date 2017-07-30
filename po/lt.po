@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: automatic-full-backup\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-13 18:11+0300\n"
-"PO-Revision-Date: 2017-07-29 12:05+0300\n"
+"PO-Revision-Date: 2017-07-30 06:23+0300\n"
 "Last-Translator: Vytenis P. <vyteniui@gmail.com>\n"
 "Language-Team: Vytenis P.  vyteniui@gmail.com\n"
 "Language: lt\n"
@@ -63,7 +63,7 @@ msgid " (unknown mode)"
 msgstr " (nežinomas režimas)"
 
 #: plugin.py:599 plugin.py:1628
-msgid " - OK show/hide"
+msgid " - OK show/nide"
 msgstr " - 'OK' rodyti/nerodyti"
 
 #: plugin.py:585 plugin.py:586 plugin.py:1591
@@ -198,7 +198,7 @@ msgid ""
 "You need at least 1500Mb free space!"
 msgstr ""
 "AFB\n"
-"Įrenginyje epakanka laisvos vietos!\n"
+"Įrenginyje nepakanka laisvos vietos!\n"
 "Reikia mažiausiai 1500 Mb laisvos vietos!"
 
 #: plugin.py:190
@@ -208,7 +208,7 @@ msgid ""
 "You need at least 300Mb free space!"
 msgstr ""
 "AFB\n"
-"Įrenginyje epakanka laisvos vietos!\n"
+"Įrenginyje nepakanka laisvos vietos!\n"
 "Reikia mažiausiai 300 Mb laisvos vietos!"
 
 #: plugin.py:180
@@ -319,12 +319,12 @@ msgstr "Išjungta"
 
 #: plugin.py:1592 plugin.py:1594 plugin.py:1596
 #, python-format
-msgid "Do you really want to create a full backup of directory %s ?"
-msgstr "Jūs tikrai norite sukurti katalogo %s pilną atsarginę kopiją?"
+msgid "Do you really want to create a full backup in directory %s ?"
+msgstr "Ar tikrai norite sukurti pilną atsarginę kopiją į katalogą %s?"
 
 #: plugin.py:689
-msgid "Do you really want to stop the creation in backup?"
-msgstr "Jūs tikrai norite nutraukti atsarginės kopijos kūrimą?"
+msgid "Do you really want to stop the creation of backup?"
+msgstr "Ar tikrai norite nutraukti atsarginės kopijos kūrimą?"
 
 #: plugin.py:1044 plugin.py:1248
 #, python-format
@@ -359,7 +359,7 @@ msgid ""
 "Please flashing another image for this partition."
 msgstr ""
 "Klaida, skaitant atvaizdą iš failo '/boot/%s'!\n"
-"Pasirinkite šiam skirsniui kitą atvaizdą."
+"Pasirinkite šiam skaidiniui kitą atvaizdą."
 
 #: plugin.py:680
 msgid "Error unmounting devices!"
@@ -371,7 +371,7 @@ msgstr "Uždaryti"
 
 #: plugin.py:668
 msgid "Exit and eject device"
-msgstr "Užverti ir išimti prietaisą"
+msgstr "Užverkite ir išimkite prietaisą"
 
 #: plugin.py:622
 msgid "Failed"
@@ -464,7 +464,7 @@ msgstr "Šis pavadinimas jau yra - pervadinti nepavyko!"
 
 #: MultiBootSwitcher.py:442
 msgid "Next boot will start from Image 1."
-msgstr "Kita įkrova įsikels atvaizdas 1."
+msgstr "Kitąkart įsikels atvaizdas 1."
 
 #: plugin.py:1591
 msgid "No"
@@ -598,7 +598,7 @@ msgstr "Parinktys atsarginei kopijai sukurti:"
 
 #: plugin.py:363
 msgid "Show message during the start"
-msgstr "Prasidedant, pranešti žinute"
+msgstr "Prieš pradedant, pranešti žinute"
 
 #: plugin.py:376
 msgid "Show multiBoot switcher in menu shutdown"
@@ -804,7 +804,7 @@ msgstr "vietos rezervavimo žinutė 2"
 
 #: plugin.py:1012
 msgid "please press exit to go back to the menu.\n"
-msgstr "Kad grįžtumėte į meniu, spauskite 'EXIT'.\n"
+msgstr "kad grįžtumėte į meniu, spauskite 'EXIT'.\n"
 
 #: plugin.py:106
 msgid "type info"
